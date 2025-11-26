@@ -1,6 +1,6 @@
 import { supabase } from '@/lib/supabase';
 import { Question } from '@/lib/types';
-import Quiz from '@/components/Quiz';
+//import Quiz from '@/components/Quiz';
 
 interface PageProps {
   params: Promise<{ id: string }>;
