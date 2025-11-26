@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { analyzePDF } from '@/lib/openai';
-import pdfParse from 'pdf-parse';
+import * as pdfParse from 'pdf-parse';
 
 export async function POST(request: NextRequest) {
   try {
